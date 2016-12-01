@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload='alert("Welcome To My ToDo App Made By FawadYousuf");'>
+    <!--p id="show" class="clockStyle"></p>
+    <p id="assignments"><a href="">Digital Clock Assignments</a></p> -->
+     <div id="center">
+        <div id="myDIV" class="header">
+            <h1>To Do App</h1>
+            <input type="text"  id="myInput" placeholder="Enter Your Activity..." required>
+            <span onclick="newElement()" class="addBtn">Add</span>
+         </div>            
+        <hr>
+        <p class="Activity">Your Activites</p>
+        <ol id="myOL">
+            <li class="checked">Make Todo App</li>
+            <li class="checked">Make Salary Allowance Assignments</li>
+            <li>Alhamdulillah</li>
+            <li>Fawad Here</li>
+        </ol>
+        <button class="rm" onclick="removed()">Remove All</button>
+    </div>
+         
+            
+    <footer>
+        <div>
+            <p id="name">Copyright&copy.<a href="http://fawadyousuf.blogspot.com" target="_blank">FawadYousuf</a></p>
+            <p id="sty">Design by <a href="https://www.facebook.com/FawadYousuf211" target="_blank">FawadMemon</a></p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
